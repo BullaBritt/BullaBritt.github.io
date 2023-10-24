@@ -9,21 +9,32 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    background: gray;
+  
+    
   }
 
   .mobileNav {
+    
     display: block;
+    background: var(--navBar);
     width: 50px;
+    
 
   }
 
   .mobileHidden {
     display: none;
+    
+
   }
 
   a #hiddenText {
     display: block;
+
+  }
+
+  #myLinks a {
+    font-size: x-large;
   }
 
   #myLinks {
@@ -115,5 +126,10 @@
 
   .textFont {
     font-size: medium;
+  }
+
+  .textFont-desc{
+
+    font-size: 3vw;
   }
 }
